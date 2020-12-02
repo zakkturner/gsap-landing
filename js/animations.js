@@ -46,7 +46,7 @@ let Timeline ={
             gsap.to(bgCircle, {duration: 1, drawSVG: 0, rotation: 0, delay: .5})
             gsap.to(smCircle, {duration: 1, drawSVG: 0, rotation: 0, delay: .5})
             gsap.to([smCircle, bgCircle, circle], {duration: .5, delay: 1, opacity: 0})
-            gsap.to(txt, {duration: .8, ease: "power3.inOut", opacity: 0})
+            gsap.to(txt, {duration: .8, ease: "power3.inOut", delay:1.5, opacity: 0})
         })
     }
 
